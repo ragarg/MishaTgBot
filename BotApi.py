@@ -290,6 +290,7 @@ def main():
     scheduler.start()
 
     print("Бот запущен...")
+    print(TOKEN)
 
     try:
         # Запускаем бота
