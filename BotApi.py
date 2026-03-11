@@ -15,7 +15,8 @@ COMPLETED = 2
 
 # Настройки
 TIMEZONE = pytz.timezone("Europe/Moscow")  # Установите свой часовой пояс
-TOKEN = "8419794805:AAHekKPaIyAw1YoyJcfMskZeb4lPwI9xMPM"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 MORNING_TIME = (8, 0)  # Утреннее время (час, минута)
 EVENING_TIME = (21, 0)  # Вечернее время (час, минута)
 
